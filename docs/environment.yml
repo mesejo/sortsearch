@@ -2,7 +2,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.8
   - sphinx
   - sphinx-copybutton
   - pip>=22.1.2
