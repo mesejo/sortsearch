@@ -1,0 +1,10 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - sphinx
+  - sphinx-copybutton
+  - pip>=22.1.2
+  - pip:
+      - furo
