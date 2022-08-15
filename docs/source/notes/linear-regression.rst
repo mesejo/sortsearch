@@ -48,3 +48,8 @@ The text above is a broad view of the steps involved when calling LinearRegressi
    #. There’s a nice picture that goes with it – the least squares solution is the projection of :math:`b` onto the span of :math:`A`, and the residual at the least squares solution is orthogonal to the span of :math:`A`.
    #. It’s a mathematically reasonable choice in statistical settings when the data vector b is contaminated by Gaussian noise (see Gauss-Markov theorem).
 
+================
+The Python Layer
+================
+
+This section includes the Python layer of the code
