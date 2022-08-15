@@ -5,6 +5,19 @@ A Deep Dive into sklearn.LinearRegression [WIP]
 This post is inspired by a similar one for the R programming language, `A Deep Dive Into How R Fits a Linear Model <http://madrury.github.io/jekyll/update/statistics/2016/07/20/lm-in-R.html>`_.
 With the difference that we would take a look at the relative simple mathematics behind fitting a line using linear regression
 
+================
+A Simple Example
+================
+
+.. code-block:: python
+
+    import numpy as np
+    from sklearn.linear_model import LinearRegression
+    X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
+    # y = 1 * x_0 + 2 * x_1 + 3
+    y = np.dot(X, np.array([1, 2])) + 3
+    reg = LinearRegression().fit(X, y)
+
 ===============
 The Big Picture
 ===============
