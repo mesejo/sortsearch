@@ -3,16 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SortSearch!
+Sort and Search
 ======================================
 
-This is just a blog for explaining machine learning related code:
-
-.. code-block:: python
-
-   print(max([1, 2, 3]))
-
+This a place to sort the notes by Daniel Mesejo to be able to easily search them later.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Notes
+
+   notes/linear-regression
+
